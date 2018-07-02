@@ -103,7 +103,8 @@
 				96A98EA820E9D2F400A23FDF /* Info.plist */,
 				96A98EA920E9D2F400A23FDF /* ghn.entitlements */,
 			);
-			path = ghn;
+			name = ghn;
+			path = Sources/ghn;
 			sourceTree = "<group>";
 		};
 		96A98EB120E9D2F400A23FDF /* ghnTests */ = {
@@ -112,7 +113,8 @@
 				96A98EB220E9D2F400A23FDF /* ghnTests.swift */,
 				96A98EB420E9D2F400A23FDF /* Info.plist */,
 			);
-			path = ghnTests;
+			name = ghnTests;
+			path = Tests/ghnTests;
 			sourceTree = "<group>";
 		};
 		96A98EBC20E9D2F400A23FDF /* ghnUITests */ = {
@@ -121,7 +123,8 @@
 				96A98EBD20E9D2F400A23FDF /* ghnUITests.swift */,
 				96A98EBF20E9D2F400A23FDF /* Info.plist */,
 			);
-			path = ghnUITests;
+			name = ghnUITests;
+			path = Tests/ghnUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,11 +422,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ghn/ghn.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Sources/ghn/ghn.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZGQ92828S6;
-				INFOPLIST_FILE = ghn/Info.plist;
+				INFOPLIST_FILE = Sources/ghn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -438,11 +441,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ghn/ghn.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Sources/ghn/ghn.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZGQ92828S6;
-				INFOPLIST_FILE = ghn/Info.plist;
+				INFOPLIST_FILE = Sources/ghn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
