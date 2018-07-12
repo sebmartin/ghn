@@ -4,4 +4,7 @@
    <FileRef
       location = "container:ghn.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:lib/apollo/Apollo.xcodeproj">
+   </FileRef>
 </Workspace>

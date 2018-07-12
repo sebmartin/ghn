@@ -13,6 +13,7 @@
 		96A98EA720E9D2F400A23FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A98EA520E9D2F400A23FDF /* Main.storyboard */; };
 		96A98EB320E9D2F400A23FDF /* ghnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A98EB220E9D2F400A23FDF /* ghnTests.swift */; };
 		96A98EBE20E9D2F400A23FDF /* ghnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A98EBD20E9D2F400A23FDF /* ghnUITests.swift */; };
+		96CF064520F6F517008B7562 /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CF064420F6F517008B7562 /* Apollo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		96A98EB920E9D2F400A23FDF /* ghnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ghnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A98EBD20E9D2F400A23FDF /* ghnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ghnUITests.swift; sourceTree = "<group>"; };
 		96A98EBF20E9D2F400A23FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CF064420F6F517008B7562 /* Apollo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Apollo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CF064520F6F517008B7562 /* Apollo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +83,7 @@
 				96A98EB120E9D2F400A23FDF /* ghnTests */,
 				96A98EBC20E9D2F400A23FDF /* ghnUITests */,
 				96A98E9D20E9D2F200A23FDF /* Products */,
+				96CF064320F6F517008B7562 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +129,14 @@
 			);
 			name = ghnUITests;
 			path = Tests/ghnUITests;
+			sourceTree = "<group>";
+		};
+		96CF064320F6F517008B7562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96CF064420F6F517008B7562 /* Apollo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
